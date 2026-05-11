@@ -1,0 +1,93 @@
+[Client 0] Client 0 finger table: 1 2 4
+[Client 0] Client 0 initialized with 4 CHORD neighbors.
+[Client 0] Task data generated for client 0 (first values: 685 560 630 193 836 764 708 360 ...)
+[Client 1] Client 1 finger table: 2 3 5
+[Client 1] Client 1 initialized with 4 CHORD neighbors.
+[Client 1] Task data generated for client 1 (first values: 321 774 482 618 945 214 508 693 ...)
+[Client 2] Client 2 finger table: 3 4 6
+[Client 2] Client 2 initialized with 5 CHORD neighbors.
+[Client 2] Task data generated for client 2 (first values: 142 665 927 304 579 490 814 946 ...)
+[Client 3] Client 3 finger table: 4 5 7
+[Client 3] Client 3 initialized with 5 CHORD neighbors.
+[Client 3] Task data generated for client 3 (first values: 506 618 289 977 348 542 784 621 ...)
+[Client 4] Client 4 finger table: 5 6 0
+[Client 4] Client 4 initialized with 5 CHORD neighbors.
+[Client 4] Task data generated for client 4 (first values: 824 116 598 745 401 958 626 484 ...)
+[Client 5] Client 5 finger table: 6 7 1
+[Client 5] Client 5 initialized with 5 CHORD neighbors.
+[Client 5] Task data generated for client 5 (first values: 253 673 736 521 891 407 579 964 ...)
+[Client 6] Client 6 finger table: 7 0 2
+[Client 6] Client 6 initialized with 5 CHORD neighbors.
+[Client 6] Task data generated for client 6 (first values: 708 484 595 813 947 678 513 626 ...)
+[Client 7] Client 7 finger table: 0 1 3
+[Client 7] Client 7 initialized with 5 CHORD neighbors.
+[Client 7] Task data generated for client 7 (first values: 918 344 568 784 618 961 437 724 ...)
+[Client 0] Client 0 starting task with 16 subtasks.
+[Client 1] Client 1 starting task with 16 subtasks.
+[Client 2] Client 2 starting task with 16 subtasks.
+[Client 3] Client 3 starting task with 16 subtasks.
+[Client 4] Client 4 starting task with 16 subtasks.
+[Client 5] Client 5 starting task with 16 subtasks.
+[Client 6] Client 6 starting task with 16 subtasks.
+[Client 7] Client 7 starting task with 16 subtasks.
+[Client 0] Client 0 processed subtask 0 for task owner 0 and computed max = 685 after 0 hop(s).
+[Client 0] Client 0 received local result for subtask 0: 685.
+[Client 0] Dispatching subtask 6 from client 0 to client 6 via CHORD neighbor 4.
+[Client 6] Client 6 processed subtask 6 for task owner 0 and computed max = 850 after 2 hop(s).
+[Client 0] Client 0 received subtask 6 result 850 from client 6 after 2 hop(s).
+[Client 0] Dispatching subtask 10 from client 0 to client 2 via CHORD neighbor 2.
+[Client 2] Client 2 processed subtask 10 for task owner 0 and computed max = 985 after 1 hop(s).
+[Client 0] Client 0 received subtask 10 result 985 from client 2 after 1 hop(s).
+[Client 1] Dispatching subtask 14 from client 1 to client 6 via CHORD neighbor 5.
+[Client 6] Client 6 processed subtask 14 for task owner 1 and computed max = 982 after 2 hop(s).
+[Client 1] Client 1 received subtask 14 result 982 from client 6 after 2 hop(s).
+[Client 2] Dispatching subtask 7 from client 2 to client 7 via CHORD neighbor 6.
+[Client 7] Client 7 processed subtask 7 for task owner 2 and computed max = 978 after 2 hop(s).
+[Client 2] Client 2 received subtask 7 result 978 from client 7 after 2 hop(s).
+[Client 3] Dispatching subtask 12 from client 3 to client 4 via CHORD neighbor 4.
+[Client 4] Client 4 processed subtask 12 for task owner 3 and computed max = 994 after 1 hop(s).
+[Client 3] Client 3 received subtask 12 result 994 from client 4 after 1 hop(s).
+[Client 4] Dispatching subtask 9 from client 4 to client 1 via CHORD neighbor 0.
+[Client 1] Client 1 processed subtask 9 for task owner 4 and computed max = 987 after 2 hop(s).
+[Client 4] Client 4 received subtask 9 result 987 from client 1 after 2 hop(s).
+[Client 5] Dispatching subtask 2 from client 5 to client 2 via CHORD neighbor 1.
+[Client 2] Client 2 processed subtask 2 for task owner 5 and computed max = 983 after 2 hop(s).
+[Client 5] Client 5 received subtask 2 result 983 from client 2 after 2 hop(s).
+[Client 6] Dispatching subtask 3 from client 6 to client 3 via CHORD neighbor 2.
+[Client 3] Client 3 processed subtask 3 for task owner 6 and computed max = 996 after 2 hop(s).
+[Client 6] Client 6 received subtask 3 result 996 from client 3 after 2 hop(s).
+[Client 7] Dispatching subtask 4 from client 7 to client 4 via CHORD neighbor 3.
+[Client 4] Client 4 processed subtask 4 for task owner 7 and computed max = 989 after 2 hop(s).
+[Client 7] Client 7 received subtask 4 result 989 from client 4 after 2 hop(s).
+[Client 0] Client 0 consolidated final result for its task: 985.
+[Client 1] Client 1 consolidated final result for its task: 982.
+[Client 2] Client 2 consolidated final result for its task: 978.
+[Client 3] Client 3 consolidated final result for its task: 994.
+[Client 4] Client 4 consolidated final result for its task: 987.
+[Client 5] Client 5 consolidated final result for its task: 983.
+[Client 6] Client 6 consolidated final result for its task: 996.
+[Client 7] Client 7 consolidated final result for its task: 989.
+[Client 0] Client 0 generated gossip 0.220:10.0.0.1:0.
+[Client 1] Client 1 generated gossip 0.225:10.0.0.2:1.
+[Client 2] Client 2 generated gossip 0.230:10.0.0.3:2.
+[Client 3] Client 3 generated gossip 0.236:10.0.0.4:3.
+[Client 4] Client 4 generated gossip 0.241:10.0.0.5:4.
+[Client 5] Client 5 generated gossip 0.247:10.0.0.6:5.
+[Client 6] Client 6 generated gossip 0.252:10.0.0.7:6.
+[Client 7] Client 7 generated gossip 0.258:10.0.0.8:7.
+[Client 4] Client 4 received gossip for the first time: 0.220:10.0.0.1:0 | local timestamp = 0.266 | sender IP = 10.0.0.3 | sender node = 2
+[Client 6] Client 6 received gossip for the first time: 0.225:10.0.0.2:1 | local timestamp = 0.271 | sender IP = 10.0.0.6 | sender node = 5
+[Client 0] Client 0 received gossip for the first time: 0.230:10.0.0.3:2 | local timestamp = 0.277 | sender IP = 10.0.0.7 | sender node = 6
+[Client 2] Client 2 received gossip for the first time: 0.236:10.0.0.4:3 | local timestamp = 0.283 | sender IP = 10.0.0.2 | sender node = 1
+[Client 5] Client 5 received gossip for the first time: 0.241:10.0.0.5:4 | local timestamp = 0.289 | sender IP = 10.0.0.1 | sender node = 0
+[Client 7] Client 7 received gossip for the first time: 0.247:10.0.0.6:5 | local timestamp = 0.294 | sender IP = 10.0.0.4 | sender node = 3
+[Client 1] Client 1 received gossip for the first time: 0.252:10.0.0.7:6 | local timestamp = 0.300 | sender IP = 10.0.0.8 | sender node = 7
+[Client 3] Client 3 received gossip for the first time: 0.258:10.0.0.8:7 | local timestamp = 0.305 | sender IP = 10.0.0.2 | sender node = 1
+[Client 0] Client 0 has received gossip from all 8 clients.
+[Client 1] Client 1 has received gossip from all 8 clients.
+[Client 2] Client 2 has received gossip from all 8 clients.
+[Client 3] Client 3 has received gossip from all 8 clients.
+[Client 4] Client 4 has received gossip from all 8 clients.
+[Client 5] Client 5 has received gossip from all 8 clients.
+[Client 6] Client 6 has received gossip from all 8 clients.
+[Client 7] Client 7 has received gossip from all 8 clients.

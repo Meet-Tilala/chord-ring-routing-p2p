@@ -1,0 +1,11 @@
+Client 4 initialized with 2 ring neighbors.
+Task data generated for client 4 (first values: 822 113 597 744 398 956 625 481 ...)
+Client 4 starting task with 16 subtasks.
+Client 4 processed subtask 12 for task owner 3 and computed max = 994 after 1 hop(s).
+Dispatching subtask 1 from client 4 to client 1 via ring neighbor 5.
+Client 4 processed subtask 4 for task owner 7 and computed max = 989 after 3 hop(s).
+Client 4 received subtask 1 result 987 from client 1 after 3 hop(s).
+Client 4 consolidated final result for its task: 987.
+Client 4 generated gossip 0.390:10.0.0.5:4.
+Client 4 received gossip for the first time: 0.400:10.0.0.6:5 | local timestamp = 0.468 | sender IP = 10.0.0.4 | sender node = 3
+Client 4 has received gossip from all 8 clients.

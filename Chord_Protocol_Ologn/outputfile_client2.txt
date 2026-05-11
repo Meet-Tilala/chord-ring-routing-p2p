@@ -1,0 +1,12 @@
+Client 2 finger table: 3 4 6
+Client 2 initialized with 5 CHORD neighbors.
+Task data generated for client 2 (first values: 142 665 927 304 579 490 814 946 ...)
+Client 2 starting task with 16 subtasks.
+Client 2 processed subtask 10 for task owner 0 and computed max = 985 after 1 hop(s).
+Dispatching subtask 7 from client 2 to client 7 via CHORD neighbor 6.
+Client 2 processed subtask 2 for task owner 5 and computed max = 983 after 2 hop(s).
+Client 2 received subtask 7 result 978 from client 7 after 2 hop(s).
+Client 2 consolidated final result for its task: 978.
+Client 2 generated gossip 0.230:10.0.0.3:2.
+Client 2 received gossip for the first time: 0.236:10.0.0.4:3 | local timestamp = 0.283 | sender IP = 10.0.0.2 | sender node = 1
+Client 2 has received gossip from all 8 clients.
