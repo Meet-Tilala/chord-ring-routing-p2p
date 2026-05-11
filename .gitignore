@@ -1,12 +1,9 @@
-# === OS generated ===
+
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# === Assignment PDF (not needed in portfolio repo) ===
-*.pdf
 
-# === OMNeT++ build artifacts ===
 out/
 Makefile
 *.o
@@ -16,17 +13,17 @@ Makefile
 *.so
 *.dylib
 
-# === OMNeT++ auto-generated message code ===
+
 *_m.cc
 *_m.h
 
-# === OMNeT++ result files ===
+
 results/
 *.sca
 *.vec
 *.vci
 
-# === IDE project files ===
+
 .project
 .cproject
 .oppbuildspec
